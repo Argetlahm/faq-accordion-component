@@ -3,5 +3,31 @@
 
 body {
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    height: 100vh;
+    height: max-content;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.sgs-flex {
+    display: flex;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+
+.box {
+    background-color: white;
+    border-radius: 20px;
+    width: 360px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 360px;
+    position: relative;
+}
+
+.shadow {
+    position: absolute;
 }
