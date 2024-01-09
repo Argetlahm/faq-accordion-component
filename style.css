@@ -35,6 +35,8 @@ body {
     flex: 0 1 360px;
     position: relative;
     padding: 10px;
+    padding-bottom: 50px;
+    box-shadow: 0 70px 300px hsl(237, 12%, 33%);
 }
 
 .image-container-mobile {
@@ -118,4 +120,26 @@ hr {
 
 li:focus-within .faq-desc {
     display: block;
+}
+
+.image-container-desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .image-container-mobile {
+        display: none;
+    }
+    .image-container-desktop {
+        display: block;
+        position: absolute;
+    }
+
+    .box {
+        padding: 50px;
+        padding-left: 200px;
+        align-items: flex-start;
+    }
+    
 }
