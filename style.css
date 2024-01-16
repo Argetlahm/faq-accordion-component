@@ -58,14 +58,14 @@ h1 {
     margin-bottom: 25px;
 }
 
-ul {
+.ul {
     width: 90%;
     margin: 0;
     padding: 0;
 }
 
 
-li {
+.li {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -121,7 +121,7 @@ hr {
     rotate: 180deg;
 }
 
-li:focus-within .faq-desc {
+.li:focus-within .faq-desc {
     display: block;
 }
 
