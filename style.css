@@ -108,6 +108,9 @@ hr {
     border: 1px solid hsla(240, 6%, 50%, 15%);
 }
 
+.faq-title-container:hover {
+    color: hsl(14, 88%, 65%);
+}
 
 .faq-title-container:focus {
     /* color: red; */
@@ -143,21 +146,23 @@ li:focus-within .faq-desc {
         /* width: 966px; */
         /* height: 945px; */
         top: -320px;
-        left: -600px;
+        left: -570px;
+        clip-path: inset(320px 0 10px 570px);
     }
 
     .woman {
         position: absolute;
-        left: -110px;
+        left: -80px;
         top: 50px;
-        clip-path: border-box;
+        /* clip-path: border-box; */
+        clip-path: inset(0 0 0 80px);
     }
 
     .box-image {
         z-index: 2;
         position: absolute;
         top: 185px;
-        left: -120px;
+        left: -90px;
     }
 
     h1 {
@@ -166,7 +171,7 @@ li:focus-within .faq-desc {
 
     .box {
         padding: 75px;
-        padding-left: 450px;
+        padding-left: 500px;
         align-items: flex-start;
     }
     
